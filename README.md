@@ -5,10 +5,11 @@ The Multi-Cursor Protocol (MCP) is a lightweight and standardized protocol devel
 MCP defines how clients connect, broadcast their cursor position, and disconnect in a shared space—making it easy to implement live cursors with metadata like color, name, or pointer style.
 
 🔧 Key Concepts
-• Session ID: Uniquely identifies each connected client
-• Cursor Position: { x, y } coordinates of the user’s pointer
-• Metadata: Optional information like username, color, or avatar
-• Rooms: Logical groups to scope user visibility (optional)
+
+- Session ID: Uniquely identifies each connected client
+- Cursor Position: { x, y } coordinates of the user’s pointer
+- Metadata: Optional information like username, color, or avatar
+- Rooms: Logical groups to scope user visibility (optional)
 
 MCP is simple, extensible, and designed for performance in real-time environments like collaborative editors, whiteboards, or design tools.
 
